@@ -1,22 +1,22 @@
-# Resoluções de Questões - Ciência da Computação
+# Problem Solving - Computer Science
 
-👋 **Bem-vindo!** Este repositório contém uma coleção de códigos e soluções desenvolvidas por mim, **Lafuente Paulino**, durante meu curso de Ciência da Computação na UFC - Campus Quixadá.
+👋 **Welcome!** This repository contains a collection of codes and solutions developed by me, **Lafuente Paulino**, during my Computer Science studies at Uuniversidade Federal do Ceará - Campus Quixadá.
 
-Aqui, compartilho respostas para questões, desafios de programação e problemas que surgiram ao longo das disciplinas. O repositório serve como um portfólio de aprendizado e de prática, abordando diversos tópicos da área.
+Here, I share my answers to various programming challenges, course exercises, and problem-solving questions that arose throughout my classes. This repository serves as a portfolio of my learning and practice, covering a wide range of topics in the field.
 
-## Conteúdo
+## Contents
 
-- **Estruturas de Dados**: Implementações e exercícios com listas, pilhas, filas, árvores, e grafos.
-- **Algoritmos**: Busca, ordenação, recursão, e técnicas de otimização.
-- **Matemática Computacional**: Códigos que envolvem lógica matemática, álgebra linear, e teoria dos números.
-- **Programação Orientada a Objetos**: Resoluções de questões básicas para consolidação de lógica e algoritmos iniciais.
-  
-## Como Usar
+- **Data Structures**: Implementations and exercises with lists, stacks, queues, trees, and graphs.
+- **Algorithms**: Searching, sorting, recursion, and optimization techniques.
+- **Computational Mathematics**: Code involving mathematical logic, linear algebra, and number theory.
+- **Object-Oriented Programming (OOP)**: Solutions and examples focusing on foundational OOP principles.
 
-Sinta-se à vontade para explorar os códigos, fazer sugestões, e contribuir com ideias. Cada pasta ou arquivo contém uma breve descrição da questão abordada, o que facilita o entendimento do contexto.
+## How to Use
+
+Feel free to explore the code, make suggestions, and contribute ideas. Each folder or file includes a brief description of the problem addressed, making it easier to understand the context.
 
 ---
 
-📝 **Observação**: Este repositório é um espaço de aprendizado e desenvolvimento, com foco na prática e no aperfeiçoamento contínuo das habilidades de programação e resolução de problemas.
+📝 **Note**: This repository is a space for learning and development, focused on practicing and continuously improving programming and problem-solving skills.
 
-🚀 **Vamos codar!**
+🚀 **Happy Coding!**
