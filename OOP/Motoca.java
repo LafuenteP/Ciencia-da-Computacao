@@ -1,5 +1,46 @@
-
-//Falta no rascunho buzinhar, comprarTempo e dirigir
+/**
+ * This is a modeling and implementation project for a motorized scooter in a park. 
+ * The idea is to simulate the functioning of this scooter through classes in a program.
+ * To achieve this, two main classes will be implemented: Person and Scooter.
+ *
+ * Description:
+ * The Scooter class represents the scooter itself. It has attributes such as power, time, 
+ * and the person who is currently using it. 
+ * The scooter starts with a power of 1, no minutes, and no one on it. 
+ * Only one person can be on the scooter at a time.
+ * 
+ * The main functionalities of the scooter include:
+ * - Getting on a person,
+ * - Getting off a person,
+ * - Buying time,
+ * - Driving for a specified duration,
+ * - Honking.
+ * 
+ * The Person class represents the users of the scooter. It has attributes for name and age.
+ * 
+ * Commands:
+ * All commands follow the format $command arg1 arg2 ....
+ * In case of error, an appropriate message must be printed.
+ * 
+ * - $show: Displays the current state of the scooter, including power, time, 
+ *   and the person currently on the scooter.
+ *   Format: "power:{this.power}, time:{this.time}, person:{this.person}"
+ *   Example: power:1, time:0, person:(marcos:4)
+ * 
+ * - $init: Resets the scooter to the initial state, with power 1, no minutes, and no one on it.
+ * 
+ * - $enter: Allows a person to get on the scooter. It must be followed by the arguments 
+ *   name and age of the person.
+ * 
+ * - $leave: Makes the person currently on the scooter get off.
+ * 
+ * - $buy: Allows buying time in minutes to use the scooter. 
+ *   The time received is added to the current time.
+ * 
+ * - $drive: Allows driving the scooter for a specified duration.
+ * 
+ * - $honk: Allows honking the scooter.
+ */
 
 import java.util.*;
 

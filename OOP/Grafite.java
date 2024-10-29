@@ -1,3 +1,45 @@
+/**
+ * The goal of this activity is to implement a mechanical pencil that allows 
+ * inserting and removing lead, as well as writing on a sheet of paper, 
+ * taking into account the hardness and size of the lead.
+ *
+ * Description:
+ * The mechanical pencil is capable of initializing, inserting, and removing lead, 
+ * in addition to writing on a sheet of paper.
+ * To insert lead, it is necessary to specify the thickness (float), 
+ * the hardness (string), and the size in mm (int).
+ * The removal of the lead is only possible if there is any in the pencil.
+ * Writing on the sheet is only possible if there is enough lead and if 
+ * the size of the lead is greater than 10mm.
+ * The amount of lead used varies according to the hardness of the lead. 
+ * The softer the lead, the more it wears down.
+ * When the size of the lead reaches 10mm, writing is no longer possible.
+ * If there is not enough lead to finish writing on the sheet, 
+ * a warning message for incomplete text is issued.
+ *
+ * Responsibilities:
+ * The Lead class is responsible for storing the information about the lead.
+ * - thickness: the thickness and will have values like 0.3, 0.5, 0.7.
+ * - hardness: the hardness can have the following values: HB, 2B, 4B, 6B.
+ * The method usagePerSheet returns the amount of lead used per sheet.
+ * - A HB lead uses 1mm per sheet.
+ * - A 2B lead uses 2mm per sheet.
+ * - A 4B lead uses 4mm per sheet.
+ * - A 6B lead uses 6mm per sheet.
+ * - size: represents the size of the lead in millimeters.
+ *
+ * The Pencil class is responsible for managing the operations of inserting, 
+ * removing lead, and writing on the sheet. 
+ * It references a single lead object as an attribute.
+ * It also has a thickness indicator.
+ *
+ * The Adapter class integrates the test calls and the Lead and Pencil classes.
+ * A method of special attention is the insert method. 
+ * In it, the Adapter receives the data from the Lead.
+ * It should create the Lead object and pass it to the pencil it manages.
+ */
+
+
 import java.text.DecimalFormat;
 import java.util.Scanner;
 

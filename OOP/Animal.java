@@ -1,5 +1,42 @@
 import java.util.*;
 
+/**
+ * The purpose of this activity is to implement an animal that goes through various growth stages until death.
+ * 
+ * Description:
+ * The animal has a species, a life stage, and a characteristic noise it makes.
+ * The stages the animal goes through are:
+ * - 0: Baby
+ * - 1: Child
+ * - 2: Adult
+ * - 3: Elder
+ * - 4: Dead
+ * 
+ * When making noise, the animal emits the characteristic sound of its species, with the following restrictions:
+ * - If it's a baby, it emits "—".
+ * - If it's an elder, it emits "RIP".
+ * 
+ * When growing, the animal advances stages in its life.
+ * Upon death, a warning message should be displayed: warning: {species} died.
+ * Calling the growth method after the animal's death should display a warning: warning: {species} died.
+ * 
+ * Responsibilities:
+ * - The code should be implemented in the Animal class.
+ * - The methods in the Animal class should be called in the Student class.
+ * - The Shell class is responsible for reading text requests and calling methods in the Student class.
+ * 
+ * Commands:
+ * All commands follow the format $command arg1 arg2 ...
+ * - $show: Displays the current state of the animal.
+ *   Format: "{species}:{stage}:{noise}"
+ *   Example: cat:0:meow
+ * - $init species noise: Initializes the animal with the specified species and noise.
+ * - $grow qtd: Makes the animal grow by a specified number of life stages.
+ * - $noise: Makes the animal emit a sound.
+ * - $end: Terminates execution.
+ */
+
+
 class animal{
     public String especie;
     public String barulho;

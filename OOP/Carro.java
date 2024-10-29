@@ -1,20 +1,44 @@
-/*
-!Oque fez? -
-            Como o exercício foi simultanêo a aula, eu fui aprendendo o que o código pedia e simultanêamente
-            fui realizando o exercício, nesse exercício eu aprofundei mais o conhecimento sobre a main e como
-            ela recebe os valores e comandos digitados pelo usuário, em paralelo, também aprendi a como chamar
-            as funções criadas anteriormente no código, usando "this." como referência dentro da função.
- 
-!Com quem fez ? -
-            fiz sozinho porém simultanemente a aula, retirando algumas dúvidas somente.
- 
-!O que aprendeu ? - 
-            Aprendi utilizar melhor os metódos e implementar-los corretamente com uma entrada especí-
-            ica, ou seja, uma entrada do usuário chama um metódo.
- 
-!Quanto tempo levou? -
-            Cerca de 2 horas.
-*/
+/**
+ * In this activity, we will implement an eco-friendly car. It should be capable of boarding and deboarding people, refueling, and driving.
+ * 
+ * Description:
+ * The car should be initialized with an empty tank, no passengers, and 0 kilometers traveled.
+ * To simplify, our sports car supports up to 2 people, and its tank holds up to 100 liters of fuel.
+ * 
+ * Responsibilities:
+ * - The code should be implemented in the Carro class.
+ * - The Student class is responsible for calling methods from the Carro class.
+ * - The Shell class is responsible for reading text commands and invoking methods in the Student class.
+ * 
+ * Commands:
+ * All commands follow the format $command arg1 arg2 ...
+ * - $show: Displays the current state of the car.
+ *   Format: "pass:{this.pass},gas:{this.gas},km:{this.km}".
+ *   Example: pass:0, gas:0, km:0.
+ * 
+ * - $init: Initializes all attributes.
+ *   - Tank empty.
+ *   - 0 passengers.
+ *   - 0 kilometers traveled.
+ *   - Maximum of 2 people.
+ *   - Maximum of 100 liters of fuel.
+ * 
+ * - $enter: Boards one person at a time, but not beyond the maximum capacity.
+ *   - If the car is full, displays the error message "fail: limite de pessoas atingido".
+ * 
+ * - $leave: Deboards one person at a time.
+ *   - If there is no one in the car, displays the error message "fail: nao ha ninguem no carro".
+ * 
+ * - $fuel qtd: Refuels the tank with the specified number of liters.
+ *   - If attempting to refuel above the limit, it discards the excess fuel.
+ * 
+ * - $drive dist: To drive, the car consumes fuel and increases its mileage.
+ *   - Can only drive if there is fuel and at least one passenger.
+ *   - If there are no passengers, displays the error message "fail: não há ninguém no carro".
+ *   - If there is no fuel, displays the error message "fail: tanque vazio".
+ *   - If there is insufficient fuel to complete the entire journey, drives as far as possible and displays a message indicating how far it traveled, like "fail: tanque vazio após andar {qtd} km".
+ */
+
 
 import java.util.Scanner;
 

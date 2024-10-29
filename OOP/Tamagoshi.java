@@ -1,3 +1,27 @@
+/**
+ * You must implement a virtual pet simulator. The pet can eat, play, sleep, and take a bath. It will eventually die if not properly cared for.
+ *
+ * Intro:
+ * Your system should:
+ * 
+ * - Initialize:
+ *   - Passing the maximum energy, satiety, and cleanliness levels of the pet.
+ *   - All levels should start at maximum upon pet creation.
+ * 
+ * Other attributes include:
+ * - Diamonds: which the pet will earn while playing.
+ * - Age: which increases with each action performed, starting at 0.
+ * 
+ * Actions:
+ * - Eating, playing, sleeping, and taking a bath:
+ *   - Each operation causes increases and decreases in the attributes.
+ *   - No attribute can exceed its maximum or drop below 0.
+ * 
+ * Dying:
+ * - If any attribute reaches 0, the pet dies, and no actions can be performed except displaying the data.
+ */
+
+
 import java.util.*;
 
 class Pet{

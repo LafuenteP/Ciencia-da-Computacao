@@ -1,3 +1,22 @@
+/**
+ * Utilizing set commands to maintain the correct time.
+ *
+ * The system should:
+ *
+ * Manage a class that stores the hour, minute, and second.
+ * When initializing the class, hour, minute, and second must be set to 0.
+ * The constructor must receive 3 parameters: hour, minute, and second.
+ * To initialize the 3 parameters, use the set methods.
+ *
+ * Create getter and setter methods for each attribute.
+ * The set methods must ensure that the assigned value is always valid; 
+ * if not, no changes should be made.
+ *
+ * Create a method that prints the time in the format HH:MM:SS.
+ * Create a method that increments the second by 1.
+ */
+
+
 import java.util.*;
 
 // Nesse rascunho, falta a parte do nextSecond

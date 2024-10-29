@@ -1,7 +1,40 @@
 import java.util.*;
 
-// Esse rascunho não possui o método de divisão, nem a invocação na main.
-
+/**
+ * The objective of this activity is to implement a battery-powered calculator. If there is battery, it can perform addition and division operations. 
+ * It is also possible to display the battery level and recharge the calculator. It will alert when the battery is low and if there is an attempt to divide by zero.
+ * 
+ * Description:
+ * The calculator has a display and a battery. It stores the current battery value and the maximum value.
+ * The display is where the result of operations is shown.
+ * The battery is the amount of energy the calculator has.
+ * Each operation consumes one point of battery.
+ * The calculator cannot perform operations if there is no battery.
+ * The calculator cannot perform divisions by zero.
+ * 
+ * Responsibilities:
+ * - The code should be implemented in the Calculadora class.
+ * - The Student class is responsible for calling methods from the Calculadora class.
+ * - The Shell class is responsible for reading text requests and invoking methods in the Student class.
+ * 
+ * Commands:
+ * All commands follow the format $command arg1 arg2 ...
+ * - $show: Displays the current display value and battery level.
+ *   Format: "{this.display:.2f}, {this.battery}"
+ * 
+ * - $init batteryMax: Initializes the calculator with a zeroed battery and display, and sets the maximum battery value defined by the parameter.
+ * 
+ * - $charge value: Adds charge to the battery, but cannot exceed the limit.
+ * 
+ * - $sum a b: Sums two values and stores the result in the display.
+ *   - If there is no battery, it emits the message "fail: bateria insuficiente".
+ * 
+ * - $div a b: Divides two values and stores the result in the display.
+ *   - If there is no battery, it emits the message "fail: bateria insuficiente".
+ *   - If there is an attempt to divide by zero, it emits the message "fail: divisao por zero".
+ * 
+ * - $end: Terminates execution.
+ */
 
 class Calculator {
     public int bateriaM;
